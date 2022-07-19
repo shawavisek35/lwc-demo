@@ -1,0 +1,13 @@
+<template>
+    <c-router>
+        <c-main-component></c-main-component>
+        <c-switch>
+            <c-route exact path="/">
+                <c-f-component></c-f-component>
+            </c-route>
+            <c-route path="/secondComponent">
+                <c-s-component></c-s-component>
+            </c-route>
+        </c-switch>
+    </c-router>
+</template>
